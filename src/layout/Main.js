@@ -12,19 +12,19 @@ const Main = () => {
   return (
     <div className='bg-light' >
       <Header></Header>
-      <Container>
+      <div className='px-5 mx-2'>
        <Row className="justify-content-md-center">
         <Col xs lg="2">
           <LeftSide></LeftSide>
         </Col>
-        <Col lg="8">
+        <Col lg="7">
             <Outlet></Outlet>
         </Col>
-        <Col xs lg="2">
+        <Col xs lg="3">
         <RightSideMain></RightSideMain>
         </Col>
       </Row>
-      </Container>
+      </div>
       <Footer></Footer>
     </div>
   );

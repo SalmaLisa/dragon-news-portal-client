@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import BrandCarousel from "../Components/Carousel/BrandCarousel";
+import Login from "../Components/Login/Login";
+import SocialLinks from "../Components/SocialLinks/SocialLinks";
 
 const RightSideMain = () => {
   return (
     <div>
-      this is right side
+      <Login></Login>
+      <SocialLinks></SocialLinks>
+      <BrandCarousel></BrandCarousel>
     </div>
   );
 };

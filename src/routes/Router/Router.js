@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Main from '../../layout/Main';
 import AllNews from '../../pages/AllNews/AllNews';
 import NewsDetails from '../../pages/components/NewsDetails/NewsDetails';
+
 export const router = createBrowserRouter([
   {
     path: '/',

@@ -4,6 +4,7 @@ import SingleNews from '../components/SingleNews/SingleNews';
 
 const AllNews = () => {
   const allNews = useLoaderData();
+  console.log(allNews)
   return (
    
     <div>
